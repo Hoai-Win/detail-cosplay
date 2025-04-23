@@ -59,7 +59,7 @@ main {
 		justify-content: space-between;
 		align-items: center;
 
-		button {
+		.load-more {
 			border-radius: 10px;
 			border: none;
 			width: 141px;
@@ -71,7 +71,7 @@ main {
 			}
 		}
 
-		button:hover {
+		.load-more:hover {
 			box-shadow: 0px 3px 1px 2px #DDDDDD;
 		}
 	}
@@ -174,7 +174,6 @@ main {
 				}
 
 				.heading {
-
 					font-weight: bold;
 					white-space: nowrap;
 				}
@@ -219,7 +218,6 @@ footer {
 				font-weight: 400;
 			}
 		}
-
 	}
 
 	.bottom-footer {
