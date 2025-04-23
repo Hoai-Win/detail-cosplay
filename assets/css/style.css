@@ -213,10 +213,6 @@ footer {
 			display: flex;
 			flex-direction: column;
 			gap: 15px;
-
-			.bold-400 {
-				font-weight: 400;
-			}
 		}
 	}
 
