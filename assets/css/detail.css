@@ -1,0 +1,150 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #EEEEEE;
+}
+
+.container {
+  max-width: 1137px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .navigation {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+}
+
+.right {
+  display: flex;
+  gap: 5px;
+}
+
+.navigate {
+  text-decoration: none;
+  color: black;
+}
+
+.navigate:hover {
+  text-shadow: 0 0 1px black;
+}
+
+main {
+  margin-top: 30px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .container-top {
+      display: flex;
+      gap: 20px;
+
+      .container-left {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 70%;
+        max-width: 70%;
+        justify-content: center;
+        padding: 20px;
+
+        .text-info {
+          font-size: 13px;
+
+          .flag {
+            padding-left: 10px;
+          }
+        }
+
+        .content-top {
+          line-height: 0;
+
+          .text-bold {
+            font-size: 24px;
+          }
+
+
+        }
+
+        .content-bottom {
+          line-height: 1.5;
+          display: flex;
+          gap: 40px;
+        }
+
+
+
+      }
+
+      .container-right {
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        background-color: white;
+        width: 30%;
+        max-width: 30%;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          padding-top: 5px;
+
+          .name {
+            font-size: 18px;
+          }
+
+          .ukraine {
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+
+    .container-bottom {
+      margin-top: 30px;
+      display: flex;
+      gap: 20px;
+
+      .content-left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 780px;
+        max-width: 780px;
+      }
+
+      .content-right {}
+
+    }
+
+
+  }
+
+
+
+
+
+
+
+
+
+}

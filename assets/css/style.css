@@ -90,6 +90,8 @@ main {
 			gap: 14px;
 			padding: 10px;
 			cursor: pointer;
+			text-decoration: none;
+			color: black;
 
 			.image {
 				max-width: 150px;
@@ -197,6 +199,10 @@ main {
 				}
 			}
 		}
+
+		.info-cosplay-2:hover {
+			box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+		}
 	}
 }
 
@@ -221,3 +227,7 @@ footer {
 		background-color: white;
 	}
 }
+
+/* @media (min-width: 768px) and (max-width: 1024px) {}
+@media (max-width: 767px) {}
+ */
