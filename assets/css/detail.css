@@ -81,7 +81,6 @@ main {
             font-size: 24px;
           }
 
-
         }
 
         .content-bottom {
@@ -89,8 +88,6 @@ main {
           display: flex;
           gap: 40px;
         }
-
-
 
       }
 
@@ -128,22 +125,100 @@ main {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 780px;
-        max-width: 780px;
+        max-width: 70%;
+        width: 70%;
+
+        .pagination {
+          margin: 50px 0;
+          display: flex;
+          justify-content: center;
+
+          .pagination-item {
+            color: black;
+            text-decoration: none;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center
+          }
+
+          .active,
+          .pagination-item:hover {
+            background-color: #f5f5f5;
+          }
+        }
+
+        .background {
+          background-color: white;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          .image-cosplay {
+            max-width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+          }
+        }
       }
 
+      .content-right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 30%;
+        max-width: 30%;
 
+        .bold {
+          font-weight: 700;
+        }
+
+        .info-top {
+          background-color: white;
+          padding: 10px;
+
+          .info-right-top {
+            font-size: 13px;
+            line-height: 2;
+            padding-top: 10px;
+          }
+        }
+
+        .info-bottom {
+          background-color: white;
+          padding: 10px;
+
+          .info-right-bottom {
+            padding-top: 5px;
+            font-size: 13px;
+            line-height: 1.5;
+          }
+        }
+      }
     }
-
-
   }
 
+}
 
+footer {
+  background-color: #CCCCCC;
 
+  .container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
 
+    .footer-left {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
 
-
-
-
-
+  .bottom-footer {
+    text-align: center;
+    background-color: white;
+  }
 }
