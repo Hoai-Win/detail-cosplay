@@ -222,3 +222,77 @@ footer {
     background-color: white;
   }
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+    min-width: 768px;
+    margin: 0 auto;
+  }
+
+  .left {
+    .navigation {
+      display: none;
+    }
+  }
+
+  main {
+
+    .container {
+      .container-top {
+        display: flex;
+        flex-direction: column-reverse;
+
+
+        .container-left {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .container-right {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+
+      .container-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .content-left {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .content-right {
+          width: 100%;
+          max-width: 100%;
+
+
+          .info-top {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+
+
+          }
+
+          .info-bottom {
+            display: flex;
+            flex-direction: column;
+          }
+
+          .row-paragraph {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+          }
+        }
+      }
+
+    }
+
+  }
+}
